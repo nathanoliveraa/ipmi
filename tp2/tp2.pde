@@ -102,7 +102,7 @@ void draw (){
   text(Tiempo, 50, 50);
  if (Tiempo >57){
    float Wao = dist (mouseX, mouseY, altoBot, anchoBot);
-   if (Wao < tamFigura/2){
+   if (Wao < 25){
      fill(8,203,255);
    }
    else {
@@ -115,7 +115,7 @@ void draw (){
 }
 void mousePressed() {
   float Wao = dist(mouseX, mouseY, altoBot, anchoBot);
-  if (Wao < tamFigura / 2) {
+  if (Wao < 25) {
     Tiempo = 0;
     posX = 640;
     posY = 480;
